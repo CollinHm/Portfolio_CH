@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.item1 { grid-area: header; background-color: #663a85
+}
+#pageTitle{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+#menuButton{
+    /* background-color: red;*/
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+}
+
+#menuButton button{
+    color: white;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin: -50px 10px 10px 30px;
+    background-color: #7f4aa5;
+
+}
+#menuButton button:hover{
+    color: white;
+    background-color: #2e5c8e;
+}
+.item2 { grid-area: project1; background-color: #474747
+}
+#photoCalculator{
+
+    background-color: red;
+    color: white;
+    width: 257px;
+    height: 350px;
+    margin: 10px 10px 10px 50px;
+}
+#pCalculator{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: -97px 10px 10px 500px;
+    padding: 10px;
+}
+
+
+.item3 { grid-area: project2; background-color: #606060
+}
+#pictureWebgameBigger{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 229px;
+    margin: 10px 10px 10px 50px;
+}
+#pWebGame{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: -97px 10px 30px 585px;
+    padding: 10px;
+}
+.item4 { grid-area: project3; background-color: #474747
+}
+#photoFirstWebpage{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 367px;
+    margin: 10px 10px 10px 50px;
+}
+#pFirstWebpage{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: -97px 10px 30px 585px;
+    padding: 10px;
+}
+.item5 { grid-area: project4; background-color: #606060
+}
+#pictureFigmaDesign{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 196px;
+    margin: 10px 10px 10px 50px;
+}
+#figmaDesign{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: -97px 10px 30px 585px;
+    padding: 10px;
+}
+.item6 { grid-area: project5; background-color: #474747
+}
+#photoFigmaDesign2{
+    background-color: red;
+    color: white;
+    width: 500px;
+    height: 85px;
+    margin: 10px 10px 10px 50px;
+}
+#figmaDesign2{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: -97px 10px 50px 585px;
+    padding: 10px;
+}
+.item7 { grid-area: footer; background-color: #2e5c8e
+}
+#contactInfo{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 7fr 7fr 7fr 7fr 7fr 5fr;
+    grid-template-areas:
+    'header header header'
+    'project1 project1 project1'
+    'project2 project2 project2'
+    'project3 project3 project3'
+    'project4 project4 project4'
+    'project5 project5 project5'
+    'footer footer footer';
+     gap: 5px;
+    height: 100vh;
+    width: 100%;
+    background-color: #474747;
+}

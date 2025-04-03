@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*item1*/
+.item1 { grid-area: header; background-color: #663a85
+}
+#pageTitle{
+     text-align: center;
+    font-family: "Comic Sans MS", cursive;
+     margin: 10px;
+     padding: 10px;
+    color: white;
+ }
+#menuButton{
+   /* background-color: red;*/
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+}
+
+#menuButton button{
+    color: white;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin: -50px 10px 10px 30px;
+    background-color: #7f4aa5;
+
+}
+#menuButton button:hover{
+    color: white;
+    background-color: #2e5c8e;
+}
+
+#menuButtonAboutMe{
+    /* background-color: red;*/
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+}
+#menuButtonAboutMe button{
+    color: white;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin: -50px 10px 10px 30px;
+    background-color: #7f4aa5;
+}
+#menuButtonAboutMe button:hover{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #2e5c8e;
+}
+
+/*item2*/
+.item2 { grid-area: menu; background-color: #606060
+}
+#homePhoto{
+    border-radius: 20px;
+    height:500px;
+    width:332px;
+    margin: 40px;
+    background-color: white;
+}
+#menuPicture{
+    border-radius: 20px;
+    height:500px;
+    width:281px;
+    margin: 40px 0 0 70px;
+    background-color: white;
+}
+/*item3*/
+#arduinoPhoto{
+    border-radius: 20px;
+    height:590px;
+    width:332px;
+    margin: 40px;
+    background-color: white;
+}
+.item3 { grid-area: main; background-color: #474747
+}
+ul{
+    list-style-type: circle;
+    color: white;
+    background: #595959;
+    height: 260px;
+    width: 1085px;
+    margin: 60px 10px 10px 0;
+    padding: 25px;
+}
+ul li{
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    margin: 5px 0 0 100px;
+}
+#paragraph-Homepage{
+    font-family: "Comic Sans MS", cursive;
+    margin: 15px 32px 10px 110px;
+    padding: 30px;
+    color: white;
+}
+img{
+    border-radius: 20px;
+
+
+}
+.img-box{
+    border-radius: 20px;
+    margin: 40px 10px 10px 130px;
+    background-color: red;
+    height: 380px;
+    width: 830px;
+}
+
+/*#homeButton{
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif, serif;
+    text-decoration: underline;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin: 100px 10px 50px 450px;
+    background-color: #7f4aa5;
+} */
+
+#homeButton button{
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: underline;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    margin: 60px 10px 50px 375px;
+    background-color: #7f4aa5;
+}
+#homeButton button:hover{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #2e5c8e;
+}
+#aboutMePhoto{
+    border-radius: 20px;
+    height:500px;
+    width:281px;
+    margin:  25px 0 0 60px;
+    background-color: white;
+
+
+}
+#aboutMeButton button{
+    font-family: "Comic Sans MS", cursive;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    text-decoration: underline;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    margin: 15px 10px 50px 375px;
+    background-color: #7f4aa5;
+}
+#aboutMeButton button:hover{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #2e5c8e;
+}
+
+#experienceButton button{
+    font-family: "Comic Sans MS", cursive;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    text-decoration: underline;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    margin: 30px 10px 50px 375px;
+    background-color: #7f4aa5;
+}
+
+#experienceButton button:hover{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #2e5c8e;
+}
+
+#projectsButton button{
+    font-family: "Comic Sans MS", cursive;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    text-decoration: underline;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    margin: 40px 10px 50px 375px;
+    background-color: #7f4aa5;
+}
+#projectsButton button:hover{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #2e5c8e;
+}
+#aboutMe{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+}
+#photoSD{
+    background-color: red;
+    margin: 72px 0 0 53px;
+    height: 222px;
+    width: 384px;
+    border-radius: 10px;
+
+}
+#pictureSD{
+    height: 222px;
+    width: 384px;
+    border-radius: 10px;
+}
+
+#photoIjzerenMan{
+    background-color: red;
+    margin: -223px 0 0 553px;
+    height: 222px;
+    width: 384px;
+    border-radius: 10px;
+}
+
+#photoZwembadIjzMan{
+    height: 222px;
+    width: 384px;
+    border-radius: 10px;
+}
+/*item4*/
+.item4 { grid-area: footer; background-color: #2e5c8e
+
+}
+#contactInfo{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 2fr 15fr 1fr;
+    grid-template-areas:
+    'header header header'
+    'menu main main'
+    'footer footer footer';
+    /*gap: 2px;*/
+    height: 100vh;
+    width: 100%;
+    background-color: #474747;
+}
+
+/*.grid-container > div {display: grid;
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+
+}*/
+
+
